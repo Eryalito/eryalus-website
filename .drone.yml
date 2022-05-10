@@ -5,10 +5,10 @@ name: test
 
 platform:
   os: linux
-  arch: arm
+  arch: amd64
   
 steps:
   - name: test_step
-    image: eryalus/jhipster-ci:v0.1.arm64
+    image: eryalus/jhipster-ci:v0.1.amd64
     commands:
       - echo "hello world!"
