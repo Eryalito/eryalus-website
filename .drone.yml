@@ -10,5 +10,5 @@ platform:
 steps:
   - name: test_step
     image: alpine
-    comands:
+    commands:
       - echo "hello world!"
