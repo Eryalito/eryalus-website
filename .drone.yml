@@ -9,6 +9,6 @@ platform:
   
 steps:
   - name: test_step
-    image: alpine
+    image: docker pull eryalus/jhipster-ci
     commands:
       - echo "hello world!"
