@@ -11,4 +11,4 @@ steps:
   - name: test_step
     image: alpine
     comand:
-      - echo "hello world"
+      - echo "hello world!"
