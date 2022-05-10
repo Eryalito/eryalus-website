@@ -1,0 +1,14 @@
+---
+kind: pipeline
+type: docker
+name: test
+
+platform:
+  os: linux
+  arch: arm
+  
+steps:
+  - name: test_step
+    image: alpine
+    comand:
+      - echo "hello world"
