@@ -9,6 +9,6 @@ platform:
   
 steps:
   - name: test_step
-    image: docker pull eryalus/jhipster-ci
+    image: eryalus/jhipster-ci:v0.1.arm64
     commands:
       - echo "hello world!"
